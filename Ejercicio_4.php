@@ -8,7 +8,7 @@
     header ("Content-type: text/html;charset=\"utf-8\"");
     $usuario = "mrami02";
 
-    if ($usuario == "mrami0" || $usuario == "mrami02" //Utilizando el operador || (or) y tambien se puede && (and)
+    if ($usuario == "mrami0" || $usuario == "mrami02") //Utilizando el operador || (or) y tambien se puede && (and)
     {
         //Si la instruccion es verdadera
         echo "<h1>Usuario es valido</h1>";
